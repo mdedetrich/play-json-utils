@@ -1,8 +1,8 @@
-package org.mdedetrich.playjsonutils
+package org.mdedetrich.playjson
 
 import play.api.libs.json._
 
-object PlayJsonUtils {
+object Utils {
 
   implicit class JsPathExtensionMethods(self: JsPath) {
 
