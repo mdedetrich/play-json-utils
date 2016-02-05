@@ -12,4 +12,3 @@ If more get added and/or its requested, play-json-utils will get bumped as a rel
 ```scala
 "org.mdedetrich" %% "play-json-utils" % "1.0.0-SNAPSHOT"
 ```
-

@@ -1,4 +1,4 @@
-package org.mdedetrich.playJsonUtils
+package org.mdedetrich.playjsonutils
 
 import play.api.libs.json._
 
