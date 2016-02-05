@@ -26,6 +26,20 @@ publishTo := {
 
 publishArtifact in Test := false
 
+scalacOptions ++= Seq(
+  "-target:jvm-1.7",
+  "-encoding", "UTF-8",
+  "-deprecation", // warning and location for usages of deprecated APIs
+  "-feature", // warning and location for usages of features that should be imported explicitly
+  "-unchecked", // additional warnings where generated code depends on assumptions
+  "-Xlint", // recommended additional warnings
+  "-Xcheckinit", // runtime error when a val is not initialized due to trait hierarchies (instead of NPE somewhere else)
+  "-Ywarn-adapted-args", // Warn if an argument list is modified to match the receiver
+  "-Ywarn-value-discard", // Warn when non-Unit expression results are unused
+  "-Ywarn-inaccessible",
+  "-Ywarn-dead-code"
+)
+
 pomExtra := <url>https://github.com/mdedetrich/play-json-utils</url>
   <licenses>
     <license>
