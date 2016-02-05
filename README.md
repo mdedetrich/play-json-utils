@@ -1,5 +1,7 @@
 # play-json-utils
 
+[![Build Status](https://travis-ci.org/mdedetrich/play-json-utils.svg?branch=master)](https://travis-ci.org/mdedetrich/play-json-utils)
+
 Contains handy utility functions for working with Play-JSON
 
 # Installation
