@@ -28,7 +28,7 @@ object Utils {
                 None
               else
                 Option(jsObject)
-            case j => None
+            case _ => None
           }
         case None => None
       }.flatMap { _ =>
@@ -58,7 +58,7 @@ object Utils {
                 None
               else
                 Option(jsArray)
-            case j => None
+            case _ => None
           }
         case None => None
       }.flatMap { _ =>
